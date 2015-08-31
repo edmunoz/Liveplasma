@@ -3,7 +3,8 @@
 #include <stdlib.h>
 #include<string.h>
 #include <stdio.h>
-#include "..\TDALib\graph.h"
+#include "../TDALib/list.h"
+#include "../TDALib/graph.h"
 
 typedef struct Cancion
 {

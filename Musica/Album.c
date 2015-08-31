@@ -1,4 +1,5 @@
 #include "Album.h"
+#include "Cancion.h"
 
 
 Album *AlbumNew(char nombre[50],char Artista[50],List *Lcanciones,int año)

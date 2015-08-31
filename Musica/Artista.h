@@ -2,6 +2,9 @@
 #define _ARTISTA_H
 #include "Album.h"
 
+#include "../TDALib/list.h"
+#include "../TDALib/graph.h"
+
 typedef struct Artista
 {
 	char Nombre[50];

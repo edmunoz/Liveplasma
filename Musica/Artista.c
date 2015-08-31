@@ -1,4 +1,5 @@
 #include "Artista.h"
+#include "Cancion.h"
 
 Artista *ArtistaNew(char nombre[50],List *Lalbum,char gen[50])
 {

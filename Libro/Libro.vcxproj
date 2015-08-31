@@ -76,9 +76,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Libro.cpp" />
+    <ClCompile Include="Autor.c" />
+    <ClCompile Include="Libro.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Autor.h" />
     <ClInclude Include="Libro.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

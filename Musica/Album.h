@@ -1,6 +1,7 @@
 #ifndef _ALBUM_H
 #define _ALBUM_H
-#include "Cancion.h"
+
+#include "../TDALib/list.h"
 
 typedef struct Album
 {

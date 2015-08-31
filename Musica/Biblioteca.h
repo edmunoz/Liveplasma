@@ -14,6 +14,7 @@ AUTORES:
 #include <stdlib.h>
 #include <conio.h>
 #include <string.h>
+#include "../TDALib/list.h"
 #include "../TDALib/graph.h"
 #include "../Musica/Cancion.h"
 #include "../Musica/Album.h"
