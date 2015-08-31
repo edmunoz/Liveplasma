@@ -1,0 +1,25 @@
+Gilberto Santa Rosa,Salsa
+Oscar De Leon,Salsa
+Maelo Ruiz,Salsa
+Grupo Niche,Salsa
+Jerry Rivera,Salsa
+Selena Gomez,Pop
+Demi Lovato,Pop
+Miley Cyrus,Pop
+Jonas Brothers,Pop
+Taylor Swift,Pop
+Daddy Yankee,Reggaeton
+Wisin & Yandel,Reggaeton
+Don Omar,Reggaeton
+Tito El Bambino,Reggaeton
+RKAM Y Ken-Y,Reggaeton
+David Guetta,Electronica
+Zedd,Electronica
+Calvin Harris,Electronica
+Steve Aoki,Electronica
+Tiesto,Electronica
+Nirvana,Rock
+AC/DC,Rock
+Nickelback,Rock
+Linkin Park,Rock
+Hombres G,Rock
