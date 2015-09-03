@@ -3,7 +3,7 @@
 
 typedef struct Libro
 {
-	char titutlo[50];
+	char titulo[50];
 	char autor[50];		//Identificación del autor del libro
 	char editorial[50];	
 	char codigoISBN[50];
