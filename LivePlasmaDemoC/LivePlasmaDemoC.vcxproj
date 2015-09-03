@@ -59,7 +59,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>Musical.lib;TDALib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Musical.lib;TDALib.lib;Libro.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>../Debug</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
