@@ -3,10 +3,10 @@
 #include <string.h>
 #include "Autor.h"
 
-Autor *newLibro(char *nombre)
-{
-	Autor *a = malloc(sizeof(Autor));
+Autor* newAutor(char *nombre){
+	Autor* a = (Autor*)malloc(sizeof(Autor));
 	strcpy(a->nombre, nombre);
-
+	a->ranking = 0;
+	a->libros = listNew();
 	return a;
 }

@@ -9,6 +9,14 @@ AUTORES:
 	- LITARDO SANDOVAL GISELL ESTHER
 	- PEÑAFIEL PEÑAFIEL CRISTINA ELIZABETH
 */
+
+/*
+PROYECTO: BIBLIOTECA DE LIBROS
+
+AUTORES:
+- ESTEBAN MUÑOZ GUEVARA
+- PEÑAFIEL PEÑAFIEL CRISTINA ELIZABETH
+*/
 void menuMusica()
 {
 	Graph *Artistas = NULL, *LartistasRelacionados = NULL;
@@ -62,6 +70,61 @@ void menuMusica()
 		} while (op1<1 || op1>4);
 	} while (op1 != 4);
 }
+
+void menuLibro(){
+	Graph *Artistas = NULL, *LartistasRelacionados = NULL;
+	List *Lalbum = NULL, *Lcancion = NULL, *LcancionesTOP = NULL;
+	List *Lartistas = NULL, *LartistasTOP = NULL;
+	int op1 = 0;
+
+	Lalbum = listNew();
+	Lcancion = listNew();
+	LcancionesTOP = listNew();
+	Lartistas = listNew();
+	LartistasTOP = listNew();
+
+	Artistas = graphNew();
+	LartistasRelacionados = graphNew();
+	Artistas = LlenarGraphArtistas(LlenarLAlbum(LlenarLCanciones()));
+
+	system("cls");
+	printf("\t\tESTRUCTURAS DE DATOS\n\nCinthya Gonzalez                                  *       *\nDaniela Andrade                                   *       *\nGisell Litardo                                 *  *       *  *\nCristina Penafiel                              *  *       *  *\n                                               *  *       *  *\n                                               *             *\n                                               *             *\n                                               *             *\n                                               ***************\n");
+	_getch();
+
+	do
+	{
+		do
+		{
+			system("cls");
+			printf("\tBIBLIOTECA MUSICAL\n\n");
+			ListaArtistasPrint(Artistas);
+			printf("\n");
+			printf("1.-Desea escribir el nombre de un artista\n2.-TOP 10 de las canciones\n3.-TOP 10 de artistas\n4.-Salir\n");
+			op1 = getch() - 48;
+
+			switch (op1)
+			{
+			case 1:
+			{
+				busquedaNombreArtista(&op1, Artistas, LartistasRelacionados, Lalbum, Lcancion);
+				_getch();
+			}break;
+			case 2:
+			{
+				topCanciones(Artistas, Lcancion, LcancionesTOP);
+				_getch();
+			}break;
+			case 3:
+			{
+				topArtistas(Artistas, Lartistas, LartistasTOP);
+				_getch();
+			}break;
+			}
+		} while (op1<1 || op1>4);
+	} while (op1 != 4);
+
+}
+
 
 void busquedaNombreArtista(int *op1, Graph *Artistas, Graph *LartistasRelacionados, List *Lalbum, List *Lcancion)
 {

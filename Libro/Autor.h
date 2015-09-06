@@ -3,11 +3,11 @@
 
 #include "../TDALib/list.h"
 
-typedef struct Autor
+typedef struct TAutor
 {
 	char nombre[50];
-	List *libros;
-
+	int ranking;
+	List* libros;
 }Autor;
 
 

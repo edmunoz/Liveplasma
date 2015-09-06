@@ -21,6 +21,7 @@ AUTORES:
 #include "../Musica/Artista.h"
 
 void menuMusica();
+void menuLibro();
 void busquedaNombreArtista(int *op1, Graph *Artistas, Graph *LartistasRelacionados, List *Lalbum, List *Lcancion);
 void topCanciones(Graph *Artistas, List *Lcancion, List *LcancionesTOP);
 void topArtistas(Graph *Artistas, List *Lartistas, List *LartistasTOP);

@@ -24,13 +24,12 @@ void main()
 		switch (opcion)
 		{
 			case MUSICA: {
-						 menuMusica(); 
-						 system("cls");
+				menuMusica(); 
+				system("cls");
 			}break;
 			case LIBROS: {
-							 printf("PROYECTO FINAL  2015-1T ... IMPLEMENTELO!");
-							 _getch();
-							 system("cls");
+				menuLibro();
+				system("cls");
 			}break; 
 			case PELICULAS: {
 								printf("OPCION NO IMPLEMENTADA");

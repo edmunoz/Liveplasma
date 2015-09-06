@@ -1,12 +1,15 @@
 #ifndef _LIBRO_H
 #define _LIBRO_H
 
-typedef struct Libro
+#include "../TDALib/list.h"
+
+typedef struct TLibro
 {
 	char titutlo[50];
 	char autor[50];		//Identificación del autor del libro
 	char editorial[50];	
 	char codigoISBN[50];
+	int ranking;
 }Libro;
 
 /**
