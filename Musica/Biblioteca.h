@@ -20,7 +20,9 @@ AUTORES:
 #include "../Musica/Album.h"
 #include "../Musica/Artista.h"
 
-#include "../Libro/Autor.h"
+#include "../Musica/Libro.h"
+#include "../Musica/Autor.h"
+
 
 void menuMusica();
 void menuLibro();

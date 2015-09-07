@@ -16,7 +16,7 @@ typedef struct TAutor{
 * @param nombre Nombre del autor
 * @return Autor
 */
-Autor *newAutor(char* autor,List *libros);
+Autor *newAutor(char* autor);
 
 List *lenarAutores();
 

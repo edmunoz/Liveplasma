@@ -57,7 +57,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>../Debug</AdditionalLibraryDirectories>
-      <AdditionalDependencies>TDALib.lib;Musical.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>TDALib.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -77,14 +77,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Autor.c" />
-    <ClCompile Include="Libro.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Autor.h" />
-    <ClInclude Include="Libro.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

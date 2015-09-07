@@ -9,8 +9,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TDALib", "TDALib\TDALib.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LivePlasmaDemoC", "LivePlasmaDemoC\LivePlasmaDemoC.vcxproj", "{B60CC430-5721-4F39-9752-5EE6D378A837}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Libro", "Libro\Libro.vcxproj", "{0404C34B-F707-4286-994A-2C3259BFA29C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -29,10 +27,6 @@ Global
 		{B60CC430-5721-4F39-9752-5EE6D378A837}.Debug|Win32.Build.0 = Debug|Win32
 		{B60CC430-5721-4F39-9752-5EE6D378A837}.Release|Win32.ActiveCfg = Release|Win32
 		{B60CC430-5721-4F39-9752-5EE6D378A837}.Release|Win32.Build.0 = Release|Win32
-		{0404C34B-F707-4286-994A-2C3259BFA29C}.Debug|Win32.ActiveCfg = Debug|Win32
-		{0404C34B-F707-4286-994A-2C3259BFA29C}.Debug|Win32.Build.0 = Debug|Win32
-		{0404C34B-F707-4286-994A-2C3259BFA29C}.Release|Win32.ActiveCfg = Release|Win32
-		{0404C34B-F707-4286-994A-2C3259BFA29C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

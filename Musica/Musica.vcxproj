@@ -79,12 +79,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Libro\Autor.c" />
+    <ClCompile Include="..\Libro\Libro.c" />
     <ClCompile Include="Album.c" />
     <ClCompile Include="Artista.c" />
     <ClCompile Include="Cancion.c" />
     <ClCompile Include="Biblioteca.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Libro\Autor.h" />
+    <ClInclude Include="..\Libro\Libro.h" />
     <ClInclude Include="Album.h" />
     <ClInclude Include="Artista.h" />
     <ClInclude Include="Cancion.h" />

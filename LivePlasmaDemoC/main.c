@@ -14,6 +14,7 @@ void menu();
 
 void main()
 {
+	List* libros = llenarLibro();
 	List* autores = lenarAutores();
 	int opcion = 0;
 	do
