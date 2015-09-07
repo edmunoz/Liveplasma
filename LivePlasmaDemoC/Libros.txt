@@ -1,0 +1,12 @@
+A Software Engineer Learns HTML5, JavaScript and jQuery;Dane Cameron;CreateSpace Independent Publishing Platform;1493692615;Programming;http://nubr.co/VITXS7
+Python Programming: An Introduction to Computer Science;John M. Zelle;Franklin, Beedle & Associates Inc.;1590282418;Programming;http://nubr.co/HjgJWn
+Java: A Beginner's Guide;Herbert Schildt;McGraw-Hill Education;0071809252;Programming;http://nubr.co/MhElAN
+Ruby Pocket Reference;Michael James Fitzgerald;O'Reilly Media;1491926015;Programming;http://nubr.co/G2NvV2
+Essential Scrum: A Practical Guide to the Most Popular Agile Process;Kenneth S. Rubin;Addison-Wesley Professional;0137043295;Software Design & Engineering;http://nubr.co/IowffC
+UML Distilled: A Brief Guide to the Standard Object Modeling Language;Martin Fowler,Kendall Scott;Addison-Wesley Professional;0321193687;Software Design & Engineering;http://nubr.co/TefVVC
+Algorithms in C, Part 5: Graph Algorithms;Robert Sedgewick;Addison-Wesley Professional;0201316633;Algorithms;http://nubr.co/moXuZu
+Data Structures, Algorithms, and Software Principles in C;Thomas A. Standish;Pearson;0201591189;Algorithms;http://nubr.co/bfsYHp
+Concepts of Programming Languages;Robert W. Sebesta;Pearson;013394302X;Programming Languages;http://nubr.co/8Mtbhl
+Programming the World Wide Web (7th Edition);Robert W. Sebesta;Pearson;0132665816;Programming Languages;http://nubr.co/vJzZJ7
+Essential Scrum;Kenneth S. Rubin;mitp-Verlag;3826690478;Software Design & Engineering;http://nubr.co/c8gn1l
+HTML5, JavaScript, and jQuery 24-Hour Trainer 1st Edition;Dane Cameron;Wrox;1119001161;Programming;http://nubr.co/qKzQ3u

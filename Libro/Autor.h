@@ -3,9 +3,8 @@
 
 #include "../TDALib/list.h"
 
-typedef struct TAutor
-{
-	char nombre[50];
+typedef struct TAutor{
+	char autor[50];
 	int ranking;
 	List* libros;
 }Autor;
@@ -17,8 +16,9 @@ typedef struct TAutor
 * @param nombre Nombre del autor
 * @return Autor
 */
-Autor *newAutor(char *nombre);
+Autor *newAutor(char *autor);
 
+List *lenarAutores();
 
 
 #endif

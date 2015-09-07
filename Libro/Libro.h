@@ -10,6 +10,7 @@ typedef struct TLibro
 	char editorial[50];	
 	char codigoISBN[50];
 	int ranking;
+	int anio;
 }Libro;
 
 /**
@@ -21,6 +22,6 @@ typedef struct TLibro
 * @param codigo Codigo ISBN del libro
 * @return Libro
 */
-Libro *newLibro(char *titulo, char *autor, char *editorial,char *codigo);
+Libro *newLibro(char *titulo, char *autor, char *editorial,char *codigo,int anio);
 
 #endif

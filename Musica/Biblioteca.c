@@ -15,7 +15,7 @@ PROYECTO: BIBLIOTECA DE LIBROS
 
 AUTORES:
 - ESTEBAN MUÑOZ GUEVARA
-- PEÑAFIEL PEÑAFIEL CRISTINA ELIZABETH
+- RENÈ BALDA
 */
 void menuMusica()
 {
@@ -96,10 +96,13 @@ void menuLibro(){
 		do
 		{
 			system("cls");
-			printf("\tBIBLIOTECA MUSICAL\n\n");
+			printf("\tBIBLIOTECA DE LIBROS\n\n");
 			ListaArtistasPrint(Artistas);
 			printf("\n");
-			printf("1.-Desea escribir el nombre de un artista\n2.-TOP 10 de las canciones\n3.-TOP 10 de artistas\n4.-Salir\n");
+			printf("1.-Desea escribir el nombre de un libro\n");
+			printf("2.-TOP 10 de libro\n");
+			printf("3.-TOP 10 de autores de libro\n");
+			printf("4.-Salir\n");
 			op1 = getch() - 48;
 
 			switch (op1)
@@ -124,7 +127,6 @@ void menuLibro(){
 	} while (op1 != 4);
 
 }
-
 
 void busquedaNombreArtista(int *op1, Graph *Artistas, Graph *LartistasRelacionados, List *Lalbum, List *Lcancion)
 {

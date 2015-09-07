@@ -20,6 +20,8 @@ AUTORES:
 #include "../Musica/Album.h"
 #include "../Musica/Artista.h"
 
+#include "../Libro/Autor.h"
+
 void menuMusica();
 void menuLibro();
 void busquedaNombreArtista(int *op1, Graph *Artistas, Graph *LartistasRelacionados, List *Lalbum, List *Lcancion);

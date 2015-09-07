@@ -1,5 +1,6 @@
 #include "../Musica/Biblioteca.h"
 
+
 /*
 PROYECTO:	LIVE PLASMA DEMO C
 SITE:		
@@ -13,6 +14,7 @@ void menu();
 
 void main()
 {
+	List* autores = lenarAutores();
 	int opcion = 0;
 	do
 	{

@@ -47,20 +47,16 @@ List *LlenarLAlbum(List *Lcanciones)
 	{
 		Lcan=listNew();
 		fscanf(f,"%[^,],%d,%[^\n]\n",n,&año,a);
-
 		for (nod = Lcanciones->header; nod != NULL; nod = nod->next)
 		{
-			C=(Cancion*)nodeListGetCont(nod);
-			
+			C=(Cancion*)nodeListGetCont(nod);			
 			if(!strcmp(n,C->Album))
 			{		 
 				listAddNode(Lcan,nodeListNew(C));
 			}
 		}
-
 		A=AlbumNew(n,a,Lcan,año);
 		listAddNode(Lalbum,nodeListNew(A));
-
 	}	
 	fclose(f);
 
